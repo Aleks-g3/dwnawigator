@@ -12,15 +12,15 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/dwnawigator">
         <NavbarComp/>
-        <Routes>
-                       <Route path="/" element={<Home/>}/>
-                       <Route path="/o-nas" element={<About/>} />
-                       <Route path="/galeria" element={<Gallery/>}/>
-                       <Route path="/kontakt" element={<Contact/>}/>
-                       <Route path="/atrakcje" element={<Atractions/>}/>
-                   </Routes>
+            <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/o-nas" element={<About/>} />
+              <Route path="/galeria" element={<Gallery/>}/>
+              <Route path="/kontakt" element={<Contact/>}/>
+              <Route path="/atrakcje" element={<Atractions/>}/>
+          </Routes>
       </Router>
       <Footer/>
     </div>
