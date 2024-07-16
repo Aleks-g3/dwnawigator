@@ -1,0 +1,66 @@
+@media (max-width:801px) {
+    div{
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    
+    .atractions{
+        margin-left: 15%;
+        margin-right: 50%;
+    }
+
+    .col-md-3{
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+    
+}
+
+@media (min-width:801px) {
+    div{
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.card{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white !important;
+    color: rgb(16, 27, 96) !important;
+}
+
+span{
+    display: block;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(16, 27, 96) !important;
+}
+
+.btn{
+    background-color: rgb(16, 27, 96) !important;
+    border-color: rgb(16, 27, 96) !important;
+}
+
+.social{
+    height: 21px;
+    background: white;
+}
+
+.social-btn{
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
