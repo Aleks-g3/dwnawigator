@@ -7,8 +7,6 @@ import "./page.css"
 
 export default class Home extends Component {
   render() {
-    debugger
-    console.log(Config.ATRACTIONS) 
     return (
       <div>
       <Container>

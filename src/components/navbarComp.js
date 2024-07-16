@@ -11,7 +11,7 @@ export default class NavbarComp extends Component {
     render(){
         return (
             <div>
-                <header class="App-header"> 
+                <header className="App-header"> 
                 <img src={logo}  alt="logo" />
                 </header>
                 <Navbar expand="sm">

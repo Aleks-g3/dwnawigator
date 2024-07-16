@@ -5,6 +5,6 @@ import { openLink } from '../functions/newTab'
 export const SocialButtons = (props) =>{
   return(
     props.socials.map(social=>(
-      <Button className="social-btn" onClick={() => openLink(social.link)}><img src={social.signature} alt={social.alt} className="social"/></Button>
+      <Button key={social.alt} className="social-btn" onClick={() => openLink(social.link)}><img src={social.signature} alt={social.alt} className="social"/></Button>
   ))
 )}

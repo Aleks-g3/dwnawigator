@@ -3,7 +3,7 @@ import { Card, Col } from "react-bootstrap"
 export const HomeCards =(props)=>{
     return(
       props.cards.map(card=>(
-        <Col md={3}>
+        <Col md={3} key={card.title}>
         <Card style={{ width: '18rem' }}>
         <Card.Img variant='top' src={card.image}/>
         <Card.Body>
